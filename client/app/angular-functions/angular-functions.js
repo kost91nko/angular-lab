@@ -7,5 +7,15 @@ angular.module('angularLabApp')
         url: '/angular-functions',
         templateUrl: 'app/angular-functions/angular-functions.html',
         controller: 'AngularFunctionsCtrl'
+      })
+      .state('angular-bind',{
+        url: '/angular-bind',
+        templateUrl: 'app/angular-functions/angular-bind/angular-bind.html',
+        controller: 'AngularBindCtrl'
+      })
+      .state('angular-copy',{
+      	url: '/angular-copy',
+      	templateUrl: 'app/angular-functions/angular-copy/angular-copy.html',
+      	controller: 'AngularCopyCtrl'
       });
   });
