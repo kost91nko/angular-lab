@@ -25,6 +25,12 @@ angular.module('angularLabApp')
       'path': 'ng-options',
       'notAtOption': true,
       'section': 'ng:directive'
+    },
+    {
+      'name': 'angular.element',
+      'path': 'angular-element',
+      'notAtOption': false,
+      'section': 'ng:function'
     }];
 
     $scope.isCollapsed = true;

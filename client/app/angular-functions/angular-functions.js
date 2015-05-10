@@ -17,5 +17,10 @@ angular.module('angularLabApp')
       	url: '/angular-copy',
       	templateUrl: 'app/angular-functions/angular-copy/angular-copy.html',
       	controller: 'AngularCopyCtrl'
+      })
+      .state('angular-element', {
+        url: '/angular-element',
+        templateUrl: 'app/angular-functions/angular-element/angular-element.html',
+        controller: 'AngularElementCtrl'
       });
   });
