@@ -15,7 +15,15 @@
             <a ng-href="{{item.link}}">{{item.title}}</a>
         </li>
         <li ng-show="isAdmin()" ng-class="{active: isActive('/admin')}"><a href="/admin">Admin</a></li>
+
       </ul>
+
+      <div class="navbar-form navbar-left">
+        <select class="form-control" ng-model="selectedAngularFunction"
+          ng-options="af.name group by af.section for af in angularFunctions">
+          <option value="">Choose Angular Function</option>
+        </select>
+      </div>
 
       <ul class="nav navbar-nav navbar-right">
         <li ng-hide="isLoggedIn()" ng-class="{active: isActive('/signup')}"><a href="/signup">Sign up</a></li>

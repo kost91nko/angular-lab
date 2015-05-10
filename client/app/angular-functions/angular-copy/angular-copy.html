@@ -1,0 +1,15 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<div class="col-md-12">
+	<dl>
+		<dt>Stable Value: </dt>
+		<dd>{{stableValue | json}}</dd>
+
+		<dt>Head Value: </dt>
+		<dd>{{headValue | json}}</dd>
+	</dl>
+
+	<input type="text" ng-model="headValue.name" />
+	<input type="submit" value="Commit Changes" ng-click="updateStable()" />
+	<input type="submit" value="Hello!" ng-click="headValue.hello()" />
+</div>
