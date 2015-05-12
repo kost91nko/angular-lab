@@ -37,6 +37,12 @@ angular.module('angularLabApp')
       'path': 'angular-equals',
       'notAtOption': false,
       'section': 'ng:function'
+    },
+    {
+      'name': 'angular.forEach',
+      'path': 'angular-forEach',
+      'notAtOption': false,
+      'section': 'ng:function'
     }];
 
     $scope.isCollapsed = true;
@@ -56,7 +62,7 @@ angular.module('angularLabApp')
       if(newValue && (!oldValue || oldValue.path != newValue.path)){
         var newPath = '/' + newValue.path;
         console.log('Change location to ' + newPath);
-        $location.path(newPath); 
+        $location.path(newPath);
       }
     });
 

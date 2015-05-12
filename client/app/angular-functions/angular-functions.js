@@ -27,5 +27,10 @@ angular.module('angularLabApp')
         url: '/angular-equals',
         templateUrl: 'app/angular-functions/angular-equals/angular-equals.html',
         controller: 'AngularEqualsCtrl'
+      })
+      .state('angular-forEach', {
+        url: '/angular-forEach',
+        templateUrl: 'app/angular-functions/angular-forEach/angular-forEach.html',
+        controller: 'AngularForEachCtrl'
       });
   });
