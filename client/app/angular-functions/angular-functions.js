@@ -22,5 +22,10 @@ angular.module('angularLabApp')
         url: '/angular-element',
         templateUrl: 'app/angular-functions/angular-element/angular-element.html',
         controller: 'AngularElementCtrl'
+      })
+      .state('angular-equals', {
+        url: '/angular-equals',
+        templateUrl: 'app/angular-functions/angular-equals/angular-equals.html',
+        controller: 'AngularEqualsCtrl'
       });
   });

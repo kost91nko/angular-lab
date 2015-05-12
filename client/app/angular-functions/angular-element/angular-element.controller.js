@@ -7,11 +7,11 @@ angular.module('angularLabApp')
 		targetElement.css('color','red');
 		var injectorTargetElement = targetElement.injector();
 		var scope = targetElement.scope();
-		targetElement.html('{{otherMsg}}');
+		targetElement.html('Bonjour');
 
 		targetElement.on('$destroy', function(){
 			alert('element was deleted');
-		}
+		});
 
 		targetElement.remove();
 		

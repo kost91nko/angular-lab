@@ -31,6 +31,12 @@ angular.module('angularLabApp')
       'path': 'angular-element',
       'notAtOption': false,
       'section': 'ng:function'
+    },
+    {
+      'name': 'angular.equals',
+      'path': 'angular-equals',
+      'notAtOption': false,
+      'section': 'ng:function'
     }];
 
     $scope.isCollapsed = true;
