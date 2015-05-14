@@ -22,5 +22,10 @@ angular.module('angularLabApp')
         url: '/angular-element',
         templateUrl: 'app/angular-functions/angular-element/angular-element.html',
         controller: 'AngularElementCtrl'
+      })
+      .state('angular-extend', {
+        url: '/angular-extend',
+        templateUrl: 'app/angular-functions/angular-extend/angular-extend.html',
+        controller: 'AngularExtendCtrl'
       });
   });
