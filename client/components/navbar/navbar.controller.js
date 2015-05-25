@@ -49,6 +49,12 @@ angular.module('angularLabApp')
       'path': 'angular-forEach',
       'notAtOption': false,
       'section': 'ng:function'
+    },
+    {
+      'name': 'angular.injector, angular.is<type>',
+      'path': 'angular-injector',
+      'notAtOption': false,
+      'section': 'ng:function'
     }];
 
     $scope.isCollapsed = true;

@@ -37,5 +37,10 @@ angular.module('angularLabApp')
         url: '/angular-forEach',
         templateUrl: 'app/angular-functions/angular-forEach/angular-forEach.html',
         controller: 'AngularForEachCtrl'
+      })
+      .state('angular-injector', {
+        url: '/angular-injector',
+        templateUrl: 'app/angular-functions/angular-injector/angular-injector.html',
+        controller: 'AngularInjectorCtrl'
       });
   });
